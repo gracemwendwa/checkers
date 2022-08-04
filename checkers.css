@@ -1,0 +1,44 @@
+body {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container {
+    height: 90%;
+    width: 80%;
+    background: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkers_container {
+    height: 90%;
+    width: 80%;
+    background: blue;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 12%;
+    width: 12%;
+    display: flex;
+    margin: 1px;
+}
+
+.dark {
+    background: #1f1802;
+}
+.light {
+    background: #b9a154;
+}
